@@ -1,0 +1,110 @@
+.overlay_container {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 206, 206);
+    width: 420px;
+    box-shadow: 5px 5px 20px 10px rgb(230, 230, 230);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay_container .img_container {
+    display: flex;
+    justify-content: right;
+}
+
+.overlay_container .img_container img {
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.overlay_container .content {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay_container .content * {
+    font-size: 18px;
+}
+
+.overlay_container .content .heading {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.overlay_container .content .object_type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.overlay_container .content .object_type div {
+    width: 85px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+    padding: 10px 0;
+}
+
+.overlay_container .content .object_type .item1 {
+    border-radius: 10px 0 0 10px;
+}
+
+.overlay_container .content .object_type .item2 {
+    border-radius: 0 10px 10px 0;
+}
+
+.overlay_container .content .object_type .type_selected {
+    background-color: rgb(45, 154, 255);
+    color: white;
+    border: 1px solid rgb(45, 154, 255);
+}
+
+.overlay_container .content input {
+    border: 2px solid rgb(206, 206, 206);
+    padding: 12px 10px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.overlay_container .content input:focus {
+    border: 2px solid rgb(45, 154, 255);
+}
+
+.overlay_container .content .error_msg {
+    color: rgb(245, 48, 30);
+    text-align: left;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.overlay_container .content .error_input {
+    border: 2px solid rgb(245, 48, 30);
+}
+
+
+.overlay_container .content button {
+    width: 100%;
+    color: white;
+    background-color: rgb(45, 154, 255);
+    text-align: center;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.overlay_container .content button:focus {
+    transform: scale(0.96);
+}

@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import File from './components/Object/File'
+import Folder from './components/Object/Folder'
+import AddNewBtn from './components/Object/AddNewBtn'
+import CreateNew from './components/Overlay/CreateNew';
+import Rename from './components/Overlay/Rename';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CreateNew /> */}
+      {/* <Rename /> */}
+      <File />
+      <Folder />
+      <AddNewBtn />
     </div>
   );
 }
