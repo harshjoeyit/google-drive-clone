@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.App {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+header > * {
+    margin: 0 10px;
+}
+
+header .back_btn_container img {
+    width: 25px;
+    margin-top: 5px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.object_space {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.object_space > * {
+    margin: 0 30px;
+}

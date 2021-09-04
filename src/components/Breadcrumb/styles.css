@@ -1,0 +1,16 @@
+
+.bread_crumbs {
+    display: flex;
+    justify-content: left;
+}
+
+.bread_crumbs .item span {
+    font-size: 26px;
+    margin: 0 4px;
+    cursor: pointer;
+    color: rgb(206, 206, 206);
+}
+
+.bread_crumbs .item .current {
+    color: rgb(41, 41, 41);
+}

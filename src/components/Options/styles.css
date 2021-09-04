@@ -1,0 +1,34 @@
+.options_container {
+    position: fixed;
+    width: 180px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px 8px rgba(230, 230, 230, 0.664);
+    color: rgb(98, 98, 98);
+}
+
+.options_container p {
+    padding: 18px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.options_container p:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.options_container p:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.options_container p:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.options_container .delete {
+    color: rgb(245, 48, 30);
+}
+
+.options_container .delete:hover {
+    background-color: rgba(245, 48, 30, 0.287);
+}
